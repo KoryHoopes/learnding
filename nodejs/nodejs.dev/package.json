@@ -1,0 +1,22 @@
+{
+  "name": "nodejs.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryHoopes/learnding.git"
+  },
+  "author": "Kory Hoopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoryHoopes/learnding/issues"
+  },
+  "homepage": "https://github.com/KoryHoopes/learnding#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
