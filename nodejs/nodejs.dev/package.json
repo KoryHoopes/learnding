@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "NODE_ENV=development node index.js"
+    "start:server": "NODE_ENV=development node server.js",
+    "start:async": "NODE_ENV=development node async.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/KoryHoopes/learnding#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cowsay": "^1.4.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
   }
 }
